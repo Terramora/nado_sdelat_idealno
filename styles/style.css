@@ -48,10 +48,12 @@ h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
+    max-width: 739px;
 }
 
 .page__title:hover {
     color: #4c4c4c;
+    cursor: default;
 }
 
 .page__title:hover::before {
@@ -61,17 +63,18 @@ h1 {
     right: 20px;
     padding: 36px 44px;
     border-radius: 20px;
-    border: 2px solid #000;
+    border: 2px solid currentColor;
     font-weight: 400;
     font-size: 35px;
     line-height: 100%;
-    box-shadow: #000 0 14px;
+    box-shadow: currentColor 0 14px;
     opacity: 1;
     background: #fff;
     text-align: left;
     text-transform: none;
     letter-spacing: 0;
     content: 'На самом деле нет. \AВажнее &mdash; научиться ошибаться.';
+    color: black;
     white-space: pre;
 }
 
